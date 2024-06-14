@@ -1,10 +1,6 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/yIl24UXFlvV
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import Link from "next/link"
 import ThemeSwitch from "./ThemeSwitch";
+import Image from "next/image";
 
 export default function Profile() {
   return (
@@ -12,10 +8,10 @@ export default function Profile() {
       <header className="bg-gray-900 text-white py-8 px-4 md:px-6">
         <div className="container mx-auto flex flex-col items-center md:flex-row md:items-start gap-6">
           <div className="flex-shrink-0 rounded-full overflow-hidden w-24 h-24 md:w-32 md:h-32">
-            <img
+            <Image
               src="https://avatars.githubusercontent.com/u/102361045?v=4"
-              width="128"
-              height="128"
+              width={128}
+              height={128}
               alt="Profile Picture"
               className="w-full h-full object-cover"
             />
@@ -25,7 +21,7 @@ export default function Profile() {
             <p className="text-gray-400 text-lg">Full Stack Developer</p>
             <p className="mt-4 max-w-[500px]">
               I am a passionate software engineer with 5 years of experience in building scalable and efficient web
-              applications. I have a strong background in JavaScript, React, and Node.js, and I'm always eager to learn
+              applications. I have a strong background in JavaScript, React, and Node.js, and I&apos;m always eager to learn
               new technologies and techniques.
             </p>
           </div>
