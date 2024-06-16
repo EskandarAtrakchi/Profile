@@ -34,7 +34,7 @@ export default function Profile() {
             className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50 font-medium"
             prefetch={false}
           >
-            Work Experience
+            Experience
           </Link>
           <Link
             href="#education"
