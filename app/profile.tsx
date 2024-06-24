@@ -11,7 +11,7 @@ export default function Profile() {
         <div className="container mx-auto flex flex-col items-center md:flex-row md:items-start gap-6">
           <div className="flex-shrink-0 rounded-full overflow-hidden w-24 h-24 md:w-32 md:h-32">
             <Image
-              src="https://avatars.githubusercontent.com/u/102361045?v=4"
+              src="/me.png"
               width={128}
               height={128}
               alt="Profile Picture"
