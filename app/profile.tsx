@@ -191,11 +191,11 @@ export default function Profile() {
             <h3 className="text-lg font-semibold">Contact Me</h3>
             <div className="mt-2 flex items-center gap-2 text-gray-400">
               <MailIcon className="h-5 w-5" />
-              <a href="#">isgan151@gmail.com</a>
+              <a href="">isgan151@gmail.com</a>
             </div>
             <div className="mt-2 flex items-center gap-2 text-gray-400">
               <PhoneIcon className="h-5 w-5" />
-              <a href="#">0857233986</a>
+              <a href="">0857233986</a>
             </div>
           </div>
           <div className="flex items-center gap-4">
